@@ -1,0 +1,185 @@
+.home .navbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+}
+.navbar-brand{
+    font-size: 42px;
+    font-weight: 900;
+}
+.try{
+    color: #FF57B8;
+    width: 120px;
+    height: 50px;
+    background: none;
+   border-radius: 25px;
+    border: 2px solid #FF57B8;
+    font-weight: 700;
+    transition: all 0.5s;
+}
+.try:hover{
+    color: #FF8ED6;
+    border:1px solid #FF8ED6;
+    transition: all 0.5s;
+    box-shadow: 5px 5px 10px #FFD2F0;
+}
+header{
+    margin: 90px 0px;
+}
+header h1{
+    animation: zoomIn;
+    animation-duration: 2s;
+    font-weight: 900;
+    padding: 20px 0px;
+}
+header .container .row p{
+    animation: zoomIn;
+    animation-duration: 2.2s;
+    margin: 20px 130px;
+    padding: 20px 150px ;
+}
+header .container .row button{
+    animation: zoomIn;
+    animation-duration: 2.5s;
+    height: 50px;
+    margin:30px 0px;
+    border-radius: 25px;
+    background-color: #FF57B8;
+    border: none;
+    color: white;
+    font-weight: 700;
+
+}
+header .container .row button:hover{
+    transition: all 0.5s;
+    background-color: #FF8ED6;
+}
+section .container .row .img img{
+    animation: zoomIn;
+    animation-duration: 2.7s;
+    width: 88%;
+}
+section .container .row .cap{
+    margin-top: 40px;
+    animation: zoomInDown;
+    animation-duration: 2s;
+}
+section .container .row .cap .hcap {
+    font-weight: 900;
+    font-size: 36px;
+
+}
+#second .bg .container .row .image img{
+    width: 95%;
+}
+#second .bg{
+    background-color: rgb(246,251,255);
+}
+
+#together{
+    font-size: 40px;
+    padding: 10px;
+    margin: 30px 0px;
+    font-weight: 900;
+}
+#con-img{
+    width: 95%;
+}
+#userimg{
+    width: 95%;
+}
+#third .third_head{
+    font-weight: 900;
+    padding: 20px 0px;
+}
+ #third .container .row #third_btn{
+    width: 30%;
+    height: 50px;
+    margin: 20px auto;
+    border-radius: 25px;
+    background-color: #FF57B8;
+    border: none;
+    color: white;
+    font-weight: 700;
+    transition: all 0.5s;
+}
+#third .container .row #third_btn:hover{
+    transition: all 0.5s;
+    background-color: #FF8ED6;
+}
+
+footer .bgf{
+    background-color:#00252E;
+}
+footer .bgf .container .row div button {
+    background-color: #FF57B8;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    transition: all 0.5s;
+
+}
+footer .bgf .container .row div button:hover{
+    transition: all 0.5s;
+    background-color: #FF8ED6;
+}
+footer .bgf .container i{
+    font-size: 20px ;
+    margin: 10px 5px;
+}
+@media (max-width:750px) {
+
+    .navbar-brand{
+        font-size: 20px;
+    }
+    .home .navbar img{
+margin: 3px;
+        width: 25px;
+    }
+    .try{
+        width: 70px;
+        height: 40px;
+        font-size: 10px;
+        margin-left: 100px;
+    }
+    .home .navbar .row div{
+        margin: 0;
+        padding: 0;        
+    }
+    header h1{
+        font-size: 30px;
+    }
+    header .container .row p{
+        padding: 3px;
+        margin: 30px 0px !important;
+    }
+    header .container .row button{
+        width: 50%;
+        font-size: 15px;
+    }
+    section .container .row .cap{
+        text-align: center;
+    }
+    #together,.home #second .container .flowing div h2 ,#third .third_head{
+        font-size:30px ;
+        text-align: center;
+        padding: 0;
+    }
+    .home #second .bg .container .row .Together p, .home #second .container .flowing div p{
+        text-align: center;
+        margin:20px auto;
+        font-size: 13px;
+        
+    }
+    .home #second .container .flowing{
+        flex-direction: column-reverse;
+    }
+    #third .container .row #third_btn {
+        width: 51%;
+    }
+
+}
